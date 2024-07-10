@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-color: #141414;
+    color: white;
+}
+
+.main-box {
+    background-color: #1F1F1F;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic img {
+    border-radius: 100px;
+    width: 130px;
+    height: auto;
+}
+
+.name p {
+    font-size: 30px;
+}
+
+.legend p {
+    font-size: 17px;
+    color: greenyellow;
+}
+
+.legend-two p {
+    font-size: 12px;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-link {
+    width: 350px;
+    height: 30px;
+}
