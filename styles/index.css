@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'inter-variable';
+    src: url('../fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/static/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('../fonts/static/Inter-SemiBold.ttf');
+}
+
 body {
     display: flex;
     align-items: center;
@@ -10,8 +30,8 @@ body {
 
 .main-box {
     background-color: #1F1F1F;
-    width: 450px;
-    height: 600px;
+    width: 370px;
+    height: 580px;
     border-radius: 10px;
     padding: 30px;
 }
@@ -24,21 +44,29 @@ form {
 
 .pic img {
     border-radius: 100px;
-    width: 130px;
+    width: 110px;
     height: auto;
 }
 
 .name p {
+    font-family: 'Inter-variable';
     font-size: 30px;
+    margin-bottom: 3px;
+    margin-top: 15px;
 }
 
 .legend p {
-    font-size: 17px;
+    font-family: 'Inter-Bold';
+    font-size: 16px;
+    margin: 0;
     color: greenyellow;
 }
 
-.legend-two p {
-    font-size: 12px;
+.description p {
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 18px;
 }
 
 .link-box {
@@ -48,6 +76,12 @@ form {
 }
 
 .button-link {
-    width: 350px;
-    height: 30px;
+    width: 340px;
+    height: 46px;
+    background-color: #333333;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Inter-SemiBold';
 }
